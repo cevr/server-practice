@@ -26,7 +26,6 @@ Object.keys(ifaces).forEach(function(ifname) {
         ++alias;
     });
 });
-``;
 
 app.get('/', (req, res) => {
     res.send(`${Math.random()}`);
